@@ -1,4 +1,5 @@
 import 'package:as_task7/pages/homepage.dart';
+import 'package:as_task7/theme/bottom_navigation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,11 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: BNavigation(),
     );
   }
 }
-

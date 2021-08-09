@@ -1,5 +1,5 @@
-import 'package:as_task7/model/ICList.dart';
-import 'package:as_task7/theme/bottom_navigation.dart';
+
+import 'package:as_task7/model/CallList.dart';
 import 'package:as_task7/theme/tabBar.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
             MissedCalls(),
           ],
         ),
-        bottomNavigationBar: MyTheme().bottom,
+        
       ),
     );
   }
